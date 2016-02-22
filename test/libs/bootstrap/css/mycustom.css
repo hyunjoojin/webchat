@@ -1,0 +1,70 @@
+@import url(https://cdn.rawgit.com/theeluwin/NotoSansKR-Hestia/master/stylesheets/NotoSansKR-Hestia.css);
+/*@import url('//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css');*/
+
+.intro {
+    display: table;
+    width: 100%;
+    height: auto;
+    padding: 100px 0;
+    text-align: center;
+    color: #fff;
+    background: url() no-repeat bottom center scroll;
+    background-color: #919191;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+
+.download-section {
+    width: 100%;
+    padding: 100px 0;
+    color:#404040;
+    /*background: url(../img/downloads-bg.jpg) no-repeat center center scroll;*/
+    background-color: #DDDDDD;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.content-section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+footer {
+    padding: 10px 0;
+    background-color: #DADADA;
+    color:#919191;
+}
+.navbar-custom {
+    font-family:"Noto Sans Korean","Apple SD Gothic Neo",gulim,Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.vm-pd-top10 {
+  padding-top: 20px;  
+}
+.vm-pd-bottom10 {
+  padding-bottom: 10px;  
+}
+
+.vm-pd-top100 {
+  padding-top: 100px;  
+}
+.vm-pd-top50 {
+  padding-top: 50px;  
+}
+.list-pd-5 > li {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.card-head{    
+    text-transform: uppercase;
+     margin: 0 0 0px;    
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    letter-spacing: 0px;
+}
