@@ -1,6 +1,8 @@
 
 $(function() {
 	// body...
+	const sMe = "hyunjoo";
+
 	var oWebChat  = null;
 
 
@@ -32,22 +34,22 @@ QUnit.test('대화를 보내고 받을  수 있다.', function(assert) {
 QUnit.test('로그인 할 수 있다.', function(assert) {
 	
 	//given
-	const sUserName = "hyunjoo";
+	
 
 	//when
-	oWebChat.login(sUserName);
+	oWebChat.login(sMe);
 
 	//then
 	var sCurrentUser = oWebChat.getMyInfo();
 
-	assert.equal(sCurrentUser, sUserName, ' "hyunjoo" 로 로그인 하고 현재 사용자를 조회하면 "hyunjoo"가  조회된다');
+	assert.equal(sCurrentUser, sMe, ' "hyunjoo" 로 로그인 하고 현재 사용자를 조회하면 "hyunjoo"가  조회된다');
 });
 
 
 QUnit.test('상대방을 지정해서 대화를  할 수 있다.', function(assert) {
 	
 	//given
-	
+	oWebChat.login(sMe);
 
 	//when
 	
