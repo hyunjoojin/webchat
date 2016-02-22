@@ -62,7 +62,7 @@ QUnit.test('상대방을 지정해서 대화를  할 수 있다.', function(asse
 	//then
 	var smsg = oWebChatOther.receive();
 
-	assert..equal(smsg, "hi", ' "hyunjoo" 로 로그인, hongsu로 로그인 .  hyunjoo가 hongsu에게 "hi" 를 보내면 "hongsu"는 "hi" 메세지를 수신할 수 있다');
+	assert.equal(smsg, "hi", ' "hyunjoo" 로 로그인, hongsu로 로그인 .  hyunjoo가 hongsu에게 "hi" 를 보내면 "hongsu"는 "hi" 메세지를 수신할 수 있다');
 	
 });
 

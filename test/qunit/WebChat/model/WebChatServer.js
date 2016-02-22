@@ -1,0 +1,8 @@
+function WebChatServer(){
+
+};
+
+WebChatServer.prototype = {
+
+	
+};
